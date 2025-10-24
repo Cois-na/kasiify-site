@@ -117,26 +117,4 @@ nav a {
 
 .image-grid {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-.image-grid img {
-    max-width: 200px;
-    height: auto;
-    border: 5px solid #fff; /* White border for contrast */
-}
-
-@media (max-width: 600px) {
-    .image-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-    .hero h1 {
-        font-size: 36px;
-    }
-    .hero h2 {
-        font-size: 24px;
-    }
-}
+    justify-content:
